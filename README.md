@@ -2,7 +2,7 @@
 ## Người thực hiện: Võ Hữu Tuấn (RINz) - 22CLC03 - HCMUS
 ## Một số lưu ý:
 
-### - Thư viện đo tốc độ thực thi:  #include &lt chrono &gt 
+### - Thư viện đo tốc độ thực thi:  #include '&lt' chrono '&gt' 
 ### - Cấu trúc của đo tốc độ sẽ là:
 
  // Đo thời gian bắt đầu  
