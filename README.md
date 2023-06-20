@@ -1,10 +1,10 @@
 # DSA---LAB---SortAlogorithm
-# Người thực hiện: Võ Hữu Tuấn (RINz) - 22CLC03 - HCMUS
-Một số lưu ý:
+## Người thực hiện: Võ Hữu Tuấn (RINz) - 22CLC03 - HCMUS
+## Một số lưu ý:
 
-#include <chrono> // thư viện đo tốc độ thực thi
+### #include <chrono> // thư viện đo tốc độ thực thi
 
-/* Cấu trúc của đo tốc độ sẽ là:
+### Cấu trúc của đo tốc độ sẽ là:
 
  // Đo thời gian bắt đầu
     auto start = chrono::high_resolution_clock::now();
@@ -23,14 +23,12 @@ Một số lưu ý:
 
 */
 
-/* 
-  Lưu ý: 
-      - Lúc xuất duration.count() nhớ dùng "fixed()" để số không bị làm tròn.
-      - Khi chạy với số lượng phần tử lớn có thể bị Runtime limit error (Quá thời gian thực thi)
-      - Nếu dùng VS code và bị RLE thì vào file "settings.json" và thêm dòng lệnh này:
+### Lúc xuất duration.count() nhớ dùng "fixed()" để số không bị làm tròn.
+### Khi chạy với số lượng phần tử lớn có thể bị Runtime limit error (Quá thời gian thực thi)
+### Nếu dùng VS code và bị RLE thì vào file "settings.json" và thêm dòng lệnh này:
+        ```json
         {
             "cpp.debugSettings": {
              "limitTime": 60000 // tăng giới hạn lên 60k ms hay 60s
            }
         }
-*/
