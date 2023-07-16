@@ -25,6 +25,6 @@
 ### - Nếu dùng VS code và bị RLE thì vào file "settings.json" và thêm dòng lệnh này:  
         {
             "cpp.debugSettings": {
-             "limitTime": 60000 // tăng giới hạn lên 60k ms hay 60s
+             "limitTime": 1000000 // tăng giới hạn lên 60k ms hay 60s
            }
         }
