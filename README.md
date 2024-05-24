@@ -1,5 +1,7 @@
-# DSA---LAB---SortAlogorithm
-## Người thực hiện: Võ Hữu Tuấn (RINz) - 22CLC03 - HCMUS
+# LAB Report
+# Topic: Sort Alogorithm 
+# Course: DSA
+## Creater: Võ Hữu Tuấn (RINz) - 22CLC03 - HCMUS
 ## Một số lưu ý:
 
     #include  <chrono> // Thư viện đo tốc độ thực thi  
